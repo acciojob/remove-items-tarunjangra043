@@ -1,1 +1,6 @@
-/*  your css code here. If applicable */
+let removeBtn = document.getElementById('removeBtn');
+
+removeBtn.addEventListener('click', () => {
+    let select = document.getElementById('colorSelect');
+    select.remove(select.selectedIndex);
+});
